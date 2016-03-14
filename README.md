@@ -1,5 +1,5 @@
 ## Shiny Tutorial
-Just the "*Teach yourself Shiny*" from [shiny.rstudio.com](http://shiny.rstudio.com/tutorial/)
+Just the "*Teach yourself Shiny*" apps from [shiny.rstudio.com](http://shiny.rstudio.com/tutorial/)
 
 Run from RStudio console:
 
