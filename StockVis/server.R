@@ -1,6 +1,6 @@
 # server.R
-
-library(quantmod)
+if (!require("quantmod")) install.packages("quantmod")
+#library("quantmod")
 source("helpers.R")
 
 shinyServer(function(input, output) {
