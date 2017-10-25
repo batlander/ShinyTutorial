@@ -1,15 +1,27 @@
+# Readme
+
 ## Shiny Tutorial
-Just the "*Teach yourself Shiny*" apps from [shiny.rstudio.com](http://shiny.rstudio.com/tutorial/)
+A few examples to teach yourself basics of **`Shiny`** through [the tutorial](http://shiny.rstudio.com/tutorial/)
 
-Run from RStudio console as usual:
+Install **`Shiny`** package as usual:
 
+``` R
     install.packages("shiny")
     library(shiny)
-    
-and then:
-
+```
+and then run from the console:
+``` R
     runGitHub("ShinyTutorial", "joanh", subdir = "HelloShiny")
+```
+``` R
     runGitHub("ShinyTutorial", "joanh", subdir = "ShinyText")
-    runGitHub("ShinyTutorial", "joanh", subdir = "ControlWidgets")
+```
+``` R
     runGitHub("ShinyTutorial", "joanh", subdir = "Census-app")
+```
+>Packages [maps](https://cran.r-project.org/web/packages/maps/index.html) and [mapproj](https://cran.r-project.org/web/packages/mapproj/index.html) will be installed if not present.
+
+``` R
     runGitHub("ShinyTutorial", "joanh", subdir = "StockVis")
+```
+>Package [quantmod](https://cran.r-project.org/web/packages/quantmod/index.html) will be installed if not present
