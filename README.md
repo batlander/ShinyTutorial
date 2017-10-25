@@ -1,7 +1,7 @@
 # Readme
 
 ## Shiny Tutorial
-A few examples to teach yourself basics of **`Shiny`** through [the tutorial](http://shiny.rstudio.com/tutorial/)
+A few examples to teach yourself basics of **`Shiny`** through [the tutorial](http://shiny.rstudio.com/tutorial/ "Shiny official site")
 
 Install **`Shiny`** package as usual:
 
