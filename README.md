@@ -22,4 +22,6 @@ and then run from the console the [`runUrl` function](https://shiny.rstudio.com/
 ``` R
     runGitHub("ShinyTutorial", "joanh", subdir = "StockVis")
 ```
->Package [quantmod](https://cran.r-project.org/web/packages/quantmod/index.html) will be installed if not present
+>Package [quantmod](https://cran.r-project.org/web/packages/quantmod/index.html) will be installed if not present.
+
+**Note**: These examples were done prior to version *0.10.2*, Shiny did not support single-file apps back then, and the `ui` object and `server` function needed to be contained in separate scripts called `ui.R` and `server.R`, you can find those files into the respective folders in this repository. This architecture is still supported in Shiny, so you still can run this samples as explained above.
