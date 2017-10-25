@@ -1,6 +1,7 @@
 # server.R
-
+if (!require("maps")) install.packages("maps")
 library(maps)
+if (!require("mapproj")) install.packages("mapproj")
 library(mapproj)
 counties <- readRDS("data/counties.rds")
 source("helpers.R")
