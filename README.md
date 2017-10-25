@@ -1,7 +1,5 @@
-# Readme
-
 ## Shiny Tutorial
-A few examples to teach yourself basics of **`Shiny`** through [the tutorial](http://shiny.rstudio.com/tutorial/ "Shiny official site")
+A few examples to teach yourself basics of **`Shiny`** through [the tutorial](http://shiny.rstudio.com/tutorial/ "Shiny official site").
 
 Install **`Shiny`** package as usual:
 
@@ -9,7 +7,7 @@ Install **`Shiny`** package as usual:
     install.packages("shiny")
     library(shiny)
 ```
-and then run from the console:
+and then run from the console the [`runUrl` function](https://shiny.rstudio.com/reference/shiny/latest/runUrl.html) :
 ``` R
     runGitHub("ShinyTutorial", "joanh", subdir = "HelloShiny")
 ```
