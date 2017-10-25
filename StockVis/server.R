@@ -1,8 +1,7 @@
 # server.R
 if (!require("quantmod")) install.packages("quantmod")
-#library("quantmod")
+library("quantmod")
 source("helpers.R")
-
 shinyServer(function(input, output) {
   
   dataInput <- reactive({
